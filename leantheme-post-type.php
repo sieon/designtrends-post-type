@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: LeanTheme Post Type
+Plugin Name: Designtrends Post Type
 Plugin URI:  https://github.com/sieon/themes-post-type
 Description: creat themes post type.
-Version:     0.3.0
+Version:     0.3.1
 Author:      Sieon
 Author URI:  https://qingzhuti.com
 License:     GPL2
@@ -16,8 +16,11 @@ define("PLUGIN_DIR", plugin_dir_path( __FILE__ ) );
 
 // Register Custom Post Type
 
-require_once( PLUGIN_DIR . 'inc/theme-post-type.php' );
-require_once( PLUGIN_DIR . 'inc/theme-taxonomies.php' );
+require_once( PLUGIN_DIR . 'inc/logo-post-type.php' );
+require_once( PLUGIN_DIR . 'inc/logo-taxonomies.php' );
 
-require_once( PLUGIN_DIR . 'inc/qiye-post-type.php' );
-require_once( PLUGIN_DIR . 'inc/qiye-taxonomies.php' );
+//require_once( PLUGIN_DIR . 'inc/theme-post-type.php' );
+//require_once( PLUGIN_DIR . 'inc/theme-taxonomies.php' );
+
+//require_once( PLUGIN_DIR . 'inc/qiye-post-type.php' );
+//require_once( PLUGIN_DIR . 'inc/qiye-taxonomies.php' );
